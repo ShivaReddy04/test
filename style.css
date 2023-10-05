@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-bg-color:black;
+}
+header{
+    
+    background-color:var(--main-bg-color);
+    color: white;
+}
+NAV{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size:20px;
+    padding: 0px 26px;
+    
+} 
+.logo b{
+    width: 100px;
+    padding: 0px 26px;
+}
+nav ul{
+    height: 70px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+nav ul li {
+
+    list-style: none;
+    padding:0px 23px ;
+  }
+nav ul li a{
+    color: white;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 30vw;
+    height: 25px;
+    border-radius: 3px;
+    margin: 0px 12px 0px 45px;
+    padding: 0px 12px;
+}
+.search button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shiva{
+    display: flex;
+    align-items: center;
+}
+.shiva button{
+    margin: 0px 10px;
+}
+.shiva button a{
+    background:var(--main-bg-color);
+    color: white;
+}
+.container{
+    min-height: calc(100vh - 70px - 16vh);
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    height: 6vh;
+    background-color:var(--main-bg-color);
+    color: white;
+}
+main  ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+main ul li{
+    list-style-type: none;
+    padding: 0px 23px;
+}
+.headings{
+    color: blue;
+}
+
+
+
+
+
+
+

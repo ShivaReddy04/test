@@ -1,0 +1,32 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 2px 4px;
+    margin: 0px 60px 0px 0px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border:2px rgb(201, 185, 185) solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.login{
+    padding: 2px 3px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border:2px rgb(201, 185, 185) solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.logout{
+    padding: 2px 5px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border:2px rgb(201, 185, 185) solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
